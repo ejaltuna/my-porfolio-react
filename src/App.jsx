@@ -1,17 +1,16 @@
- 
-import './App.css'
+import "./App.css";
+import Experianecia from "./components/Experianecia.jsx";
+import NavHeader from "./components/NavHeader.jsx";
 
-import NavHeader from './components/NavHeader.jsx'
-
-function App() { 
+function App() {
   return (
     <>
-       <NavHeader/>
-      <p className="read-the-docs">
-       dewsde cero
-      </p>
+      <NavHeader />
+      <div className="w-full md:w-3/5 container   mx-auto">
+        <Experianecia />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

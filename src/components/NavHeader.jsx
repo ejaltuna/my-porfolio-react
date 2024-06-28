@@ -1,36 +1,34 @@
 const NavHeader = () => {
   return (
     <>
-      <header className="bg-white">
-        <nav
-          className="mx-auto flex max-w-full items-center justify-between  "
-         
-        >
-     
-          <div className="   flex  ">
-            
-
-            <a
-              href="#"
-              className="text-sm font-semibold leading-6 text-gray-900"
-            >
-              Features
-            </a>
-            <a
-              href="#"
-              className="text-sm font-semibold leading-6 text-gray-900"
-            >
-              Marketplace
-            </a>
-            <a
-              href="#"
-              className="text-sm font-semibold leading-6 text-gray-900"
-            >
-              Company
-            </a>
-          </div>
-        </nav>
-      </header>
+      <nav className=" w-80 sm:w-96 mt-2 mx-auto ">
+        <div className=" py-1  bg-white opacity-85 rounded-3xl  gap-5 flex justify-center ">
+          <a
+            href="#"
+            className="md:text-sm text-xs font-semibold sm:p-1 hover:bg-gray-300 hover:rounded-3xl hover:transition-colors hover:duration-500  text-gray-900"
+          >
+            Experiencia
+          </a>
+          <a
+            href="#"
+            className="md:text-sm text-xs font-semibold sm:p-1  hover:bg-gray-300 hover:rounded-3xl hover:transition-colors hover:duration-500 text-gray-900"
+          >
+            Proyectos
+          </a>
+          <a
+            href="#"
+            className="md:text-sm text-xs font-semibold sm:p-1  hover:bg-gray-300 hover:rounded-3xl hover:transition-colors hover:duration-500 text-gray-900"
+          >
+            Sobre mi
+          </a>
+          <a
+            href="#"
+            className="md:text-sm text-xs font-semibold sm:p-1  hover:bg-gray-300 hover:rounded-3xl hover:transition-colors hover:duration-500 text-gray-900"
+          >
+            contacto
+          </a>
+        </div>
+      </nav>
     </>
   );
 };
