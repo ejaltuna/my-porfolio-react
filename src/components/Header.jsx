@@ -1,6 +1,6 @@
-const Experianecia = () => {
+const Header = () => {
   return (
-    <div className=" container md:px-4 px-8 pt-6 md:pt-28  border">
+    <div className=" container md:px-4 px-8 pt-6 md:pt-28   ">
       <div className="grid grid-rows-2 grid-flow-col gap-2 py-4">
         <div className="row-span-2  ">
           <img
@@ -9,7 +9,7 @@ const Experianecia = () => {
             src="https://avatars.githubusercontent.com/u/98001070?s=400&u=7f967690633232bf130d553bdbff0750ad4905ee&v=4"
           />
         </div>
-        <div className="col-span-2 row-span-2 my-auto ">
+        <div className="col-span-1 row-span-2 my-auto ">
           <div className="  border-2 hover:bg-gray-500 border-green-800 text-left  items-start justify-center w-44 px-3 py-1 text-xs text-green-800 bg-green-100 rounded-full cursor-pointer dark:bg-gray-800 dark:text-white/80 backdrop-blur-3xl whitespace-nowrap">
             Disponible para trabajar
           </div>
@@ -31,7 +31,7 @@ const Experianecia = () => {
         <p className=""> Soy Venezolano, de barquisimeto estado lara.</p>
       </div>
 
-      <div className="flex  gap-6 p-6">
+      <div className="flex  gap-3 md:gap-6 pt-3 md:p-6">
         <a
           href="mailto:altuna90@gmail.com"
           target="_blank"
@@ -86,4 +86,4 @@ const Experianecia = () => {
   );
 };
 
-export default Experianecia;
+export default Header;

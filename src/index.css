@@ -6,6 +6,10 @@
 
   
 }
+/* 
+animation: nav-shadown 1s linear both;
+    animation-timeline: scroll();
+    animation-range: 0 100px; */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

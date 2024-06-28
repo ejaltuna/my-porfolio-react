@@ -1,5 +1,6 @@
 import "./App.css";
-import Experianecia from "./components/Experianecia.jsx";
+import ExpLaboral from "./components/ExpLaboral.jsx";
+import Header from "./components/Header.jsx"; 
 import NavHeader from "./components/NavHeader.jsx";
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
     <>
       <NavHeader />
       <div className="w-full md:w-3/5 container   mx-auto">
-        <Experianecia />
+        <Header />
+        <ExpLaboral/>
       </div>
     </>
   );
